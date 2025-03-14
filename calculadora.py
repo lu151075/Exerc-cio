@@ -31,7 +31,7 @@ while executar :
 
 
     # Subtração
-    if operador == "2"or operador == "Subtração" or operador == "-" :
+    if operador == "2"or operador == "-" or operador == "Subtração" :
         resultado = valor01 - valor02
         print("Resultado da Subtração : " -  str(resultado))
         print(texto_sair)
@@ -41,7 +41,7 @@ while executar :
     
 
     # Divisão
-    if operador == "3"or operador == " Divisão" or operador == "/" :
+    if operador == "3"or operador == "/" or operador == "Dividir" :
         resultado = valor01 / valor02
         print("Resultado da Divisão : " /  str(resultado))
         print(texto_sair)
@@ -51,7 +51,7 @@ while executar :
 
 
     # Multiplicação
-    if operador == "4"or operador == "Multiplicação" or operador == "*" :
+    if operador == "4"or operador == "*" or operador == "Multiplicar" :
         resultado = valor01 * valor02
         print("Resultado da Multiplicação : " *  str(resultado))
         print(texto_sair)
@@ -63,4 +63,6 @@ while executar :
 
 
     # Sair
-    
+    if operador == "5" or operador == "Sair":
+       print("Obrigado")
+       executar = False
